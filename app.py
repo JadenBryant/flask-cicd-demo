@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>🚀 Hello from Flask CI/CD Demo v2.2 \
+    return "<h1>🚀 Hello from Flask CI/CD Demo v2.2</h1> \
         <p>This update to my repository was automatically deployed to my \
             Railway site.</p>"
 
